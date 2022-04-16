@@ -13,7 +13,6 @@ let g:colors_name = "catppuccin"
 
 hi Normal guifg=#d9e0ee guibg=#1e1e2e guisp=#1e1e2e gui=NONE ctermfg=255 ctermbg=236 cterm=NONE
 hi Visual  guifg=NONE guibg=#6E6C7E gui=NONE
-hi CursorLine guifg=NONE guibg=#302D41 
 
 hi IncSearch guifg=#192224 guibg=#BD9800 guisp=#BD9800 gui=NONE ctermfg=235 ctermbg=1 cterm=NONE
 hi WildMenu guifg=NONE guibg=#A1A6A8 guisp=#A1A6A8 gui=NONE ctermfg=NONE ctermbg=248 cterm=NONE
@@ -38,6 +37,8 @@ hi StorageClass guifg=#536991 guibg=NONE guisp=NONE gui=bold ctermfg=60 ctermbg=
 hi Todo guifg=#fae3b0 guibg=#BD9800 guisp=#BD9800 gui=bold ctermfg=223 ctermbg=1 cterm=bold
 hi Special guifg=#f5c2e7 guibg=NONE guisp=NONE gui=NONE ctermfg=225 ctermbg=NONE cterm=NONE
 hi LineNr guifg=#6e6c7e guibg=NONE guisp=NONE gui=NONE ctermfg=60 ctermbg=NONE cterm=NONE
+hi CursorLine guifg=NONE guibg=#302D41
+hi CursorLineNr guifg=#ABE9B3
 hi StatusLine guifg=#f5e0dc guibg=#1a1826 guisp=#1a1826 gui=bold ctermfg=224 ctermbg=235 cterm=bold
 hi Label guifg=#BD9800 guibg=NONE guisp=NONE gui=bold ctermfg=1 ctermbg=NONE cterm=bold
 hi PMenuSel guifg=#192224 guibg=#BD9800 guisp=#BD9800 gui=NONE ctermfg=235 ctermbg=1 cterm=NONE
